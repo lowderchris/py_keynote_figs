@@ -18,7 +18,7 @@ Using the matplotlib.rcParams[] function within python, changes to the figure fo
 - Font size : 8 to 14
 - Font family : Serif to sans-serif
 - LaTeX : On to off
-- 
+ 
 ##Things to-do
 - Include transparency options by default for keynote figures
 - Adjust rendering of math to avoid serifed LaTeX fonts in keynote mode

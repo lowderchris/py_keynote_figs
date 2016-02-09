@@ -23,6 +23,28 @@ def keynote_figs():
 	matplotlib.rcParams['font.family'] = 'sans-serif'
 	matplotlib.rcParams['text.usetex'] = False
 
+def keynote_figs2():
+	matplotlib.rcParams['lines.color'] = 'black'
+	matplotlib.rcParams['patch.edgecolor'] = 'black'
+	matplotlib.rcParams['text.color'] = 'black'
+	matplotlib.rcParams['axes.facecolor'] = '#f1f1f1'
+	matplotlib.rcParams['axes.edgecolor'] = 'black'
+	matplotlib.rcParams['axes.labelcolor'] = 'black'
+	matplotlib.rcParams['xtick.color'] = 'black'
+	matplotlib.rcParams['ytick.color'] = 'black'
+	matplotlib.rcParams['grid.color'] = 'black'
+	matplotlib.rcParams['figure.facecolor'] = '#f1f1f1'
+	matplotlib.rcParams['figure.edgecolor'] = '#f1f1f1'
+	matplotlib.rcParams['savefig.facecolor'] = '#f1f1f1'
+	matplotlib.rcParams['savefig.edgecolor'] = '#f1f1f1'
+	cols = (brewer2mpl.get_map('Set1', 'qualitative', 7)).mpl_colors
+	cols.insert(0,(0.,0.,0.))
+	matplotlib.rcParams['axes.prop_cycle'] = matplotlib.cycler('color', cols)
+	matplotlib.rcParams['font.size'] = 14
+	matplotlib.rcParams['lines.linewidth'] = 2.0
+	matplotlib.rcParams['font.family'] = 'sans-serif'
+	matplotlib.rcParams['text.usetex'] = False
+
 def latex_figs():
 	matplotlib.rcParams['lines.color'] = 'black'
 	matplotlib.rcParams['patch.edgecolor'] = 'black'
